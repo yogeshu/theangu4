@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html ng-app="eplApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Lato, 'Times New Roman', serif;
+      font-size: 3vmin;
+      color: black;
+      padding: 0;
+      margin: 0;
+      background-color: #K5F5K5;
+      background-image: url(1200px-football_iu_1996.jpg);
+      background-attachment: fixed;
+    }
+
+    h2 {
+      font-size: 4vmin;
+    }
+
+    .notFound {
+      padding: 8%;
+      text-align: center;
+    }
+
+    .cop1 {
+      font-family: Lato, 'Times New Roman', serif;
+      width: 100%;
+      padding: 1.2%;
+      min-height: 40px;
+      background-color: rgb(40, 0, 80);
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    .Teamx {
+      border: 5px solid blue;
+      background-color: cyan;
+      margin-left: 4%;
+      margin-right: 4%;
+      padding: 2%;
+    }
+
+    .h2style {
+      border: 2px solid red;
+    }
+
+    .footer {
+      background-color: #292c2f;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: center;
+      font: normal 18px sans-serif;
+      padding: 45px;
+      margin-top: 80px;
+      border-top: 5px rgb(56, 0, 60);
+    }
+
+    .footer .footer-motto {
+      color: #8d9093;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .footer .footer-name {
+      color: cyan;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .footer .footer-links {
+      list-style: none;
+      font-weight: bold;
+      color: cyan;
+      padding: 35px 0 23px;
+      margin: 0;
+    }
+
+    .footer .footer-links a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      .footer {
+        padding: 35px;
+      }
+      .footer .footer-motto {
+        font-size: 18px;
+      }
+      .footer .footer-name {
+        font-size: 12px;
+      }
+      .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+      }
+      .footer .footer-links a {
+        line-height: 1.8;
+      }
+    }
+
+    @media screen (min-width: 768px) {
+      .footer {
+        padding: 35px;
+      }
+      .footer .footer-motto {
+        font-size: 18px;
+      }
+      .footer .footer-name {
+        font-size: 12px;
+      }
+      .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+      }
+      .footer .footer-links a {
+        line-height: 1.8;
+      }
+    }
+
+    @media screen (min-width: 992px) {
+      .footer {
+        padding: 35px;
+      }
+      .footer .footer-motto {
+        font-size: 18px;
+      }
+      .footer .footer-name {
+        font-size: 12px;
+      }
+      .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+      }
+      .footer .footer-links a {
+        line-height: 1.8;
+      }
+    }
+
+    @media screen (min-width: 1200px) {
+      .footer {
+        padding: 35px;
+      }
+      .footer .footer-motto {
+        font-size: 18px;
+      }
+      .footer .footer-name {
+        font-size: 12px;
+      }
+      .footer .footer-links {
+        font-size: 14px;
+        padding: 25px 0 20px;
+      }
+      .footer .footer-links a {
+        line-height: 1.8;
+      }
+    }
+  </style>
+
+  <title>English Premier League </title>
+
+</head>
+
+<body>
+  <p class="cop1" id="header" style="font-family:Time new roman;"> English Premier League
+  </p>
+  <br>
+  <br>
+  <div ng-view></div>
+  <footer class="footer">
+
+    <p class="footer-name" style="font-family:Time new roman;"> &copy;Yogesh bhavsar</p>
+
+  </footer>
+
+  <!-- app section end -->
+  <!-- JavaScript Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+  <script src="controller/mainController.js"></script>
+  <script src="controller/matchViewController.js"></script>
+  <script src="controller/teamViewCtrl.js"></script>
+  <script src="controller/route.js". </script>
+
+
+
+  <script src=" coroute.js"></script>
+</body>
+
+
+</html>

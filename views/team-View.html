@@ -1,0 +1,78 @@
+<section class="Teamx">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="allDataTable table-responsive text-center ">
+
+
+                    <br>
+                    <h1 style="color: purple; font-family: monospace;"> <span ng-show="singleTeam.teamname1">{{singleTeam.teamname1}}</span><span ng-show="!singleTeam.teamname1">{{singleTeam.teamname2}}</span>Team Statistics</h1>
+                    <table class="table table-bordered table table-dark ">
+                        <thead>
+                            <tr>
+
+                    <br>
+                    <table class="table table-responsive table-bordered table table-dark ">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center" style="color: #FF1444;">
+                                    <h3><span ng-show="!singleTeam.teamname1">{{singleTeam.teamname2}}</span>Team Statistics</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Total Matches Played:
+                                </td>
+                                <td>
+                                    {{singleTeam.totalMatchesPlayed}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Total Matches Won:
+                                </td>
+                                <td>
+                                    {{singleTeam.totalWins}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Total Matches Lost:
+
+                                </td>
+                                <td>
+                                    {{singleTeam.totalLost}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Total Matches Tied:
+                                </td>
+                                <td>
+                                    {{singleTeam.totaltie}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Total Goals Scored:
+                                </td>
+                                <td>
+                                    {{singleTeam.totalgoals}}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+
+
+                    <hr><a href="#/" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-home"></span> Go To Homepage</a> <br>
+                </div>
+                <div>
+
+                </div>
+
+            </div>
+            <!-- conteiner-fluid end -->
+</section>
